@@ -19,7 +19,7 @@ html[data-theme="basic-dark-blueberry"] {
     .heading-h4,
     .heading-h5,
     .heading-h6 {
-        color: #b8c5d9;
+        color: #b8cce6;
     }
 
     --text-base-size: 16px;
@@ -27,20 +27,20 @@ html[data-theme="basic-dark-blueberry"] {
     /* ------------------------------------------- */
     /* 2. Background Colors - Deep Blue Tones     */
     /* ------------------------------------------- */
-    --color-bg-50: #6b7a99;
-    --color-bg-100: #4f5e7d;
-    --color-bg-150: #3e4d6b;
-    --color-bg-200: #303e5a;
-    --color-bg-300: #252f45;
-    --color-bg-400: #1c2535;
-    --color-bg-500: #141b28;
-    --color-bg-600: #141b28;
-    --color-bg-700: #0f151f;
-    --color-bg-800: #141b28; /* Sidebar - medium blue */
-    --color-bg-900: #0a0e15;  /* Main window - deep night */
-    --color-bg-950: #080b11;
-    --color-bg-500-50: rgba(20, 27, 40, 0.5);
-    --color-bg-950-50: rgba(8, 11, 17, 0.65);
+    --color-bg-50: #6b82b8;
+    --color-bg-100: #4f6699;
+    --color-bg-150: #3e5585;
+    --color-bg-200: #304570;
+    --color-bg-300: #25375c;
+    --color-bg-400: #1c2a48;
+    --color-bg-500: #141f38;
+    --color-bg-600: #141f38;
+    --color-bg-700: #0f1828;
+    --color-bg-800: #141f38; /* Sidebar - medium blue */
+    --color-bg-900: #0a1020;  /* Main window - deep night */
+    --color-bg-950: #080c18;
+    --color-bg-500-50: rgba(20, 31, 56, 0.5);
+    --color-bg-950-50: rgba(8, 12, 24, 0.65);
 
     /* ------------------------------------------- */
     /* 3. Primary Colors - Berry Accent           */
@@ -63,17 +63,17 @@ html[data-theme="basic-dark-blueberry"] {
     /* ------------------------------------------- */
     /* 4. Text & Icons - Cool Periwinkle          */
     /* ------------------------------------------- */
-    --color-text-50: #b8c5d9;
-    --color-text-100: #b8c5d9;
-    --color-text-200: #a8b8cc;
-    --color-text-300: #8fa3ba;
-    --color-text-400: #7a90ab;
-    --color-text-500: #6b7a99;
-    --color-text-600: #4f5e7d;
+    --color-text-50: #b8cce6;
+    --color-text-100: #b8cce6;
+    --color-text-200: #a8bdd9;
+    --color-text-300: #8fa8ca;
+    --color-text-400: #7a96bb;
+    --color-text-500: #6b82b8;
+    --color-text-600: #4f6699;
     --color-text-700: #6b8dd6;
-    --color-text-800: #8fa3ba;
-    --color-text-900: #252f45;
-    --color-text-950: #6b7a99;
+    --color-text-800: #8fa8ca;
+    --color-text-900: #25375c;
+    --color-text-950: #6b82b8;
 
     /* ------------------------------------------- */
     /* 5. Semantic Colors - Cool Tones            */
@@ -83,7 +83,7 @@ html[data-theme="basic-dark-blueberry"] {
     --text-warning: #fbbf24;
     --text-error: #dc2626;
     --bg-alert: #dc2626;
-    --fg-alert: #b8c5d9;
+    --fg-alert: #b8cce6;
 
     /* ------------------------------------------- */
     /* 6. Links, Tags & Mentions - Berry Bright   */
@@ -110,12 +110,12 @@ html[data-theme="basic-dark-blueberry"] {
     --ed-check-div-border: #6b8dd6;
     --ed-check-div-hover-border: #7ba3e0;
     --ed-check-done-bg: #6b8dd6;
-    --ed-check-done-fg: #141b28;
+    --ed-check-done-fg: #141f38;
 
     /* Done task styling */
     .listitem.listitem-task.state-done .lineitem-text {
-        color: #6b7a99 !important;
-        text-decoration-color: #6b7a99 !important;
+        color: #6b82b8 !important;
+        text-decoration-color: #6b82b8 !important;
         opacity: 1 !important;
     }
 
@@ -123,7 +123,7 @@ html[data-theme="basic-dark-blueberry"] {
     /* 8. Selection & Caret                        */
     /* ------------------------------------------- */
     --selection-bg: rgba(107, 141, 214, 0.3);
-    --selection-fg: #b8c5d9;
+    --selection-fg: #b8cce6;
     --ed-selection-self-bg: rgba(107, 141, 214, 0.3);
     --ed-selection-blurred-bg: rgba(107, 141, 214, 0.15);
 
@@ -138,7 +138,7 @@ html[data-theme="basic-dark-blueberry"] {
     --ed-quote-border-color: #6b8dd6;
 
     --ed-code-border: transparent;
-    --ed-code-bg: rgba(37, 47, 69, 0.6);
+    --ed-code-bg: rgba(37, 55, 92, 0.6);
 
     /* Inline code */
     .lineitem-code {
@@ -156,33 +156,33 @@ html[data-theme="basic-dark-blueberry"] {
     /* ------------------------------------------- */
     /* 10. UI Components - Night Interface        */
     /* ------------------------------------------- */
-    --cards-bg: #141b28;
-    --cards-hover-bg: #1c2535;
+    --cards-bg: #141f38;
+    --cards-hover-bg: #1c2a48;
     --cards-border-color: transparent;
     --cards-border-color-focused: transparent;
 
     --side-bg-active-focus: #3a5690;
-    --side-fg-active-focus: #b8c5d9;
-    --sidebar-bg-hover: #1c2535;
+    --side-fg-active-focus: #b8cce6;
+    --sidebar-bg-hover: #1c2a48;
     --sidebar-border-color: transparent;
 
-    --cmdpal-bg-color: #141b28;
+    --cmdpal-bg-color: #141f38;
     --cmdpal-selected-bg-color: #6b8dd6;
-    --cmdpal-selected-fg-color: #141b28;
-    --cmdpal-hover-bg-color: #1c2535;
+    --cmdpal-selected-fg-color: #141f38;
+    --cmdpal-hover-bg-color: #1c2a48;
     --cmdpal-border-color: transparent;
 
-    --input-bg-color: #141b28;
+    --input-bg-color: #141f38;
     --input-border-color: transparent;
     --input-border-focus: 1px solid #6b8dd6;
     --input-border-shadow: 0 0 8px rgba(107, 141, 214, 0.4);
 
     --button-primary-bg-color: #6b8dd6;
-    --button-primary-fg-color: #141b28;
+    --button-primary-fg-color: #141f38;
     --button-primary-bg-hover-color: #5a7bc4;
-    --button-bg-color: #1c2535;
+    --button-bg-color: #1c2a48;
     --button-border-color: transparent;
-    --button-bg-hover-color: #303e5a;
+    --button-bg-hover-color: #304570;
 
     --color-shadow: rgba(0, 0, 0, 0.4);
     --color-shadow-cards: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -211,7 +211,7 @@ html[data-theme="basic-dark-blueberry"] {
     --enum-pink-bg: rgba(236, 72, 153, 0.25);
     --enum-pink-fg: #ec4899;
 
-    --prop-border-focused: #141b28;
+    --prop-border-focused: #141f38;
     --prop-bg-focused: rgba(107, 141, 214, 0.3);
     --shadow-sticky-row: 0 6px 12px rgba(0, 0, 0, 0);
     --ed-drag-handle-color: #6b8dd6;
@@ -223,7 +223,7 @@ html[data-theme="basic-dark-blueberry"] {
 /* ------------------------------------------- */
 /* Berry Cream - Light & Fresh                 */
 /* ------------------------------------------- */
-html[data-theme="basic-light-blueberry"] {
+html[data-theme="basic-white-blueberry"] {
     color-scheme: light;
 
     /* ------------------------------------------- */
@@ -235,26 +235,26 @@ html[data-theme="basic-light-blueberry"] {
     .heading-h4,
     .heading-h5,
     .heading-h6 {
-        color: #303e5a;
+        color: #304570;
     }
 
     /* ------------------------------------------- */
     /* 2. Background Colors - Soft Berry Cream    */
     /* ------------------------------------------- */
-    --color-bg-50: #8fa3ba;
-    --color-bg-100: #b8c5d9;
-    --color-bg-150: #ccd6e5;
-    --color-bg-200: #dae3f0;
-    --color-bg-300: #e5ecf5;
-    --color-bg-400: #ebf1f8;
-    --color-bg-500: #eff4fa;
-    --color-bg-600: #eff4fa;
-    --color-bg-700: #f4f7fc;
-    --color-bg-800: #dae3f0; /* Sidebar - soft blue cream */
-    --color-bg-900: #e8eff7; /* Main window - berry cream */
-    --color-bg-950: #eff4fa;
-    --color-bg-500-50: rgba(239, 244, 250, 0.5);
-    --color-bg-950-50: rgba(239, 244, 250, 0.65);
+    --color-bg-50: #8fa8ca;
+    --color-bg-100: #b8cce6;
+    --color-bg-150: #ccdaf0;
+    --color-bg-200: #dae6f5;
+    --color-bg-300: #e5eef9;
+    --color-bg-400: #ebf3fb;
+    --color-bg-500: #eff6fc;
+    --color-bg-600: #eff6fc;
+    --color-bg-700: #f4f9fd;
+    --color-bg-800: #dae6f5; /* Sidebar - soft blue cream */
+    --color-bg-900: #e8f1fa; /* Main window - berry cream */
+    --color-bg-950: #eff6fc;
+    --color-bg-500-50: rgba(239, 246, 252, 0.5);
+    --color-bg-950-50: rgba(239, 246, 252, 0.65);
 
     /* ------------------------------------------- */
     /* 3. Primary Colors - Rich Berry Blue        */
@@ -277,17 +277,17 @@ html[data-theme="basic-light-blueberry"] {
     /* ------------------------------------------- */
     /* 4. Text & Icons - Deep Blues               */
     /* ------------------------------------------- */
-    --color-text-50: #252f45;
-    --color-text-100: #1c2535;
-    --color-text-200: #303e5a;
-    --color-text-300: #3e4d6b;
-    --color-text-400: #4f5e7d;
-    --color-text-500: #5f7090;
-    --color-text-600: #6b7a99;
+    --color-text-50: #25375c;
+    --color-text-100: #1c2a48;
+    --color-text-200: #304570;
+    --color-text-300: #3e5585;
+    --color-text-400: #4f6699;
+    --color-text-500: #5f76a8;
+    --color-text-600: #6b82b8;
     --color-text-700: #4a6ab0;
-    --color-text-800: #303e5a;
-    --color-text-900: #eff4fa;
-    --color-text-950: #4f5e7d;
+    --color-text-800: #304570;
+    --color-text-900: #eff6fc;
+    --color-text-950: #4f6699;
 
     /* ------------------------------------------- */
     /* 5. Semantic Colors - Fresh Tones           */
@@ -297,7 +297,7 @@ html[data-theme="basic-light-blueberry"] {
     --text-warning: #d97706;
     --text-error: #dc2626;
     --bg-alert: #dc2626;
-    --fg-alert: #eff4fa;
+    --fg-alert: #eff6fc;
 
     /* ------------------------------------------- */
     /* 6. Links, Tags & Mentions - Berry Glow     */
@@ -324,12 +324,12 @@ html[data-theme="basic-light-blueberry"] {
     --ed-check-div-border: #4a6ab0;
     --ed-check-div-hover-border: #3a5690;
     --ed-check-done-bg: #4a6ab0;
-    --ed-check-done-fg: #eff4fa;
+    --ed-check-done-fg: #eff6fc;
 
     /* Done task styling */
     .listitem.listitem-task.state-done .lineitem-text {
-        color: #6b7a99 !important;
-        text-decoration-color: #6b7a99 !important;
+        color: #6b82b8 !important;
+        text-decoration-color: #6b82b8 !important;
         opacity: 1 !important;
     }
 
@@ -337,7 +337,7 @@ html[data-theme="basic-light-blueberry"] {
     /* 8. Selection & Caret                        */
     /* ------------------------------------------- */
     --selection-bg: rgba(107, 141, 214, 0.3);
-    --selection-fg: #eff4fa;
+    --selection-fg: #eff6fc;
     --ed-selection-self-bg: rgba(107, 141, 214, 0.3);
     --ed-selection-blurred-bg: rgba(107, 141, 214, 0.15);
 
@@ -352,7 +352,7 @@ html[data-theme="basic-light-blueberry"] {
     --ed-quote-border-color: #4a6ab0;
 
     --ed-code-border: transparent;
-    --ed-code-bg: rgba(218, 227, 240, 0.6);
+    --ed-code-bg: rgba(218, 230, 245, 0.6);
 
     /* Inline code */
     .lineitem-code {
@@ -370,37 +370,37 @@ html[data-theme="basic-light-blueberry"] {
     /* ------------------------------------------- */
     /* 10. UI Components - Fresh Interface        */
     /* ------------------------------------------- */
-    --cards-bg: #e8eff7;
-    --cards-hover-bg: #dae3f0;
+    --cards-bg: #e8f1fa;
+    --cards-hover-bg: #dae6f5;
     --cards-border-color: transparent;
     --cards-border-color-focused: transparent;
 
     --side-bg-active-focus: #4a6ab0;
-    --side-fg-active-focus: #eff4fa;
-    --sidebar-bg-hover: #ccd6e5;
+    --side-fg-active-focus: #eff6fc;
+    --sidebar-bg-hover: #ccdaf0;
     --sidebar-border-color: transparent;
 
-    --cmdpal-bg-color: #eff4fa;
+    --cmdpal-bg-color: #eff6fc;
     --cmdpal-selected-bg-color: #4a6ab0;
-    --cmdpal-selected-fg-color: #eff4fa;
-    --cmdpal-hover-bg-color: #e5ecf5;
+    --cmdpal-selected-fg-color: #eff6fc;
+    --cmdpal-hover-bg-color: #e5eef9;
     --cmdpal-border-color: transparent;
 
-    --input-bg-color: #eff4fa;
+    --input-bg-color: #eff6fc;
     --input-border-color: transparent;
     --input-border-focus: 1px solid #4a6ab0;
     --input-border-shadow: 0 0 8px rgba(74, 106, 176, 0.3);
 
     --button-primary-bg-color: #4a6ab0;
-    --button-primary-fg-color: #eff4fa;
+    --button-primary-fg-color: #eff6fc;
     --button-primary-bg-hover-color: #3a5690;
-    --button-bg-color: #dae3f0;
+    --button-bg-color: #dae6f5;
     --button-border-color: transparent;
-    --button-bg-hover-color: #ccd6e5;
+    --button-bg-hover-color: #ccdaf0;
 
-    --color-shadow: rgba(37, 47, 69, 0.1);
-    --color-shadow-cards: 0 4px 6px rgba(37, 47, 69, 0.06);
-    --color-shadow-hover: 0 6px 12px rgba(37, 47, 69, 0.12);
+    --color-shadow: rgba(37, 55, 92, 0.1);
+    --color-shadow-cards: 0 4px 6px rgba(37, 55, 92, 0.06);
+    --color-shadow-hover: 0 6px 12px rgba(37, 55, 92, 0.12);
 
     --logo-color: #4a6ab0;
     --logo-glow-shadow:
@@ -425,7 +425,7 @@ html[data-theme="basic-light-blueberry"] {
     --enum-pink-bg: rgba(219, 39, 119, 0.15);
     --enum-pink-fg: #db2777;
 
-    --prop-border-focused: #eff4fa;
+    --prop-border-focused: #eff6fc;
     --prop-bg-focused: rgba(74, 106, 176, 0.2);
     --shadow-sticky-row: 0 6px 12px rgba(0, 0, 0, 0);
     --ed-drag-handle-color: #4a6ab0;
