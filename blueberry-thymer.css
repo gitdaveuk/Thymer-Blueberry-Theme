@@ -223,7 +223,7 @@ html[data-theme="basic-dark-blueberry"] {
 /* ------------------------------------------- */
 /* Berry Cream - Light & Fresh                 */
 /* ------------------------------------------- */
-html[data-theme="basic-white-blueberry"] {
+html[data-theme="basic-light-blueberry"] {
     color-scheme: light;
 
     /* ------------------------------------------- */
@@ -431,5 +431,5 @@ html[data-theme="basic-white-blueberry"] {
     --ed-drag-handle-color: #4a6ab0;
     --ed-drag-handle-hover-border: #3a5690;
 
-    --gradient-scrim: none;
+    /*--gradient-scrim: none;*/
 }
